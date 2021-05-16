@@ -24,6 +24,11 @@ namespace DataAccessLayer.Concrete.Repositories
             c.SaveChanges(); 
         }
 
+        public T Get(Expression<Func<T, bool>> filter)//t türünde tanımladık yani entity türünde mesela category,heading olabilir
+        {
+            return _object.SingleOrDefault(filter);//Bir dizide veya liste de sadece bir değer döndüren entityframework linq metodu
+        }
+
         public void Insert(T p)
         {
             _object.Add(p);
