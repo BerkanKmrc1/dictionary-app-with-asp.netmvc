@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<div class="row">
+    <div class="col-3">
+        <div class="card bg-blue" style="height: 10rem; width: 16rem;">
+            <div class="card-body">
+                <p class="card-text" style="font-size:30px; font-weight:bold;">@ViewBag.dgr1</p>
+                <h5 class="card-title" style="font-size: 20px;">Toplam Kategori Sayısı</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="card bg-red" style="height: 10rem; width: 16rem; ">
+            <div class="card-body">
+                <p class="card-text" style="font-size:30px; font-weight:bold;">@ViewBag.dgr2</p>
+                <h5 class="card-title" style="font-size: 20px;">Kategorisi yazılım olan başlık sayısı</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="card bg-yellow" style="height: 10rem; width: 16rem; ">
+            <div class="card-body">
+                <p class="card-text" style="font-size:30px; font-weight:bold;">@ViewBag.dgr3</p>
+                <h5 class="card-title" style="font-size: 20px;">Yazar adında a harfi geçen yazar sayısı</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="card bg-purple" style="height: 10rem; width: 16rem; ">
+            <div class="card-body">
+                <p class="card-text" style="font-size:30px; font-weight:bold;">@ViewBag.dgr4</p>
+                <h5 class="card-title" style="font-size: 20px;">En fazla başlığa ait kategori adı</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="card bg-green" style="height: 10rem; width: 16rem; ">
+            <div class="card-body">
+                <p class="card-text" style="font-size:30px; font-weight:bold;">@ViewBag.dgr5</p>
+                <h5 class="card-title" style="font-size: 20px;">Durumu true ve false olanların farkı</h5>
+            </div>
+        </div>
+    </div>
+</div>
