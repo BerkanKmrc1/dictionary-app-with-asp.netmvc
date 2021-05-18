@@ -42,7 +42,7 @@
                                 <div class="row">
                                     <div class="col-7">
                                         <h2 class="lead"><b>@item.WriterName @item.WriterSurName</b></h2>
-                                        <p class="text-muted text-sm"><b>About: </b> Web Designer / UX / Graphic Artist / Coffee Lover </p>
+                                        <p class="text-muted text-sm"><b>Hakkında: </b>@item.WriterAbout</p>
                                         <ul class="ml-4 mb-0 fa-ul text-muted">
                                             <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span>Mail: @item.WriterMail</li>
                                             @*<li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Phone #: + 800 - 12 12 23 52</li>*@
@@ -69,7 +69,9 @@
                     </div>
                 }
             </div>
+            <a href="/AdminWriter/AddWriter" class="btn btn-primary mb-2">Yeni Yazar</a><br />
         </div>
+
         <!-- /.card-body -->
         <!-- /.card-footer -->
     </div>

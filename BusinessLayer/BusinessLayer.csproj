@@ -59,6 +59,7 @@
     <Compile Include="Concrete\CategoryManager.cs" />
     <Compile Include="Concrete\WriterManager.cs" />
     <Compile Include="FluentValidation\CategoryValidator.cs" />
+    <Compile Include="FluentValidation\WriterValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
